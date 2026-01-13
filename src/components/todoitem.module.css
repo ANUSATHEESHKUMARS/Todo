@@ -1,0 +1,167 @@
+.item {
+    width: 100%;
+    color: #2d3748;
+    font-size: 15px;
+    margin: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #ffffff;
+}
+
+.itemName {
+    font-weight: 400;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: background-color 0.15s ease;
+}
+
+.itemName:hover {
+    background-color: #f7fafc;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 0 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.editButton,
+.deleteButton,
+.saveButton,
+.cancelButton {
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #718096;
+}
+
+.editButton {
+    color: #4a5568;
+}
+
+.editButton:hover {
+    background: #edf2f7;
+    color: #2d3748;
+    transform: scale(1.05);
+}
+
+.deleteButton {
+    color: #718096;
+}
+
+.deleteButton:hover {
+    background: #fed7d7;
+    color: #e53e3e;
+    transform: scale(1.05);
+}
+
+.saveButton {
+    color: #2d3748;
+    background: #c6f6d5;
+}
+
+.saveButton:hover {
+    background: #9ae6b4;
+    color: #22543d;
+    transform: scale(1.05);
+}
+
+.cancelButton {
+    color: #718096;
+    background: #fed7d7;
+}
+
+.cancelButton:hover {
+    background: #fc8181;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #a0aec0;
+    font-style: normal;
+}
+
+.editForm {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.editInput {
+    flex: 1;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #ffffff;
+    color: #2d3748;
+    font-weight: 400;
+}
+
+.editInput:focus {
+    border-color: #4a5568;
+    box-shadow: 0 0 0 3px rgba(74, 85, 104, 0.08);
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    flex-shrink: 0;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #cbd5e0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #ffffff;
+    flex-shrink: 0;
+}
+
+.checkbox:hover {
+    border-color: #4a5568;
+    transform: scale(1.05);
+}
+
+.checkbox.checked {
+    background: #2d3748;
+    border-color: #2d3748;
+}
+
+.checkmark {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+}

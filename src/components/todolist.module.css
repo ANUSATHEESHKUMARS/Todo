@@ -1,0 +1,35 @@
+.list {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 
+                0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px 0;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+}
+
+.noTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 24px;
+    text-align: center;
+    color: #718096;
+}
+
+.noTasksIcon {
+    font-size: 56px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.noTasks p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #a0aec0;
+}
